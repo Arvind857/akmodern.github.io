@@ -1,0 +1,178 @@
+*
+{
+    padding: 0;
+    margin: 0;
+        box-sizing: border-box;
+}
+
+body 
+{
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background: rgb(100,0,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 157px;
+    margin: 19px;
+    padding: -15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+IMG{
+    float: left;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 4px;
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+     margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted red;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+ border-bottom: none;
+    
+}
+.menu-bar ul li: hover .sub-menu-1 ul li a:hover{
+    color: ;
+}
+fa fa-angel-right{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me: hover.sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+
+.searchbox{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 40px;
+    background-color: #2f3640;
+    border-radius: 40px;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    }
+ #textbox{
+            
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 0;
+    transition:  all 0.4s;
+    color: white;
+    }
+.fa-search
+        {
+    color: aquamarine;
+     width: 40px;
+     height: 40pxpx;
+     line-height: 20px;
+     border-radius: 50%;
+    text-align: center;           
+        }
+        .searchbox:hover #textbox{
+            width: 240px;
+        }
+        .searchbox:hover . fa-search{
+            background: white;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align: center;
+    padding: 8px;
+    color: hotpink;
+}
+tr:nth-child(even){
+    background-color: yellow;
+}
+body H2, h4{
+    color: yellowgreen;
+    
+}
+BODY H4{
+    font-size: 30PX;
+}
+BODY P1{
+    color: darkblue;
+    font-size: 32PX;
+}
+body h3{
+    color: RED;
+    font-size: 28PX;
+}
+BODY P2{
+    color: orange;
+    font-size: 30PX;
+}
+BODY P3{
+    color: mediumvioletred;
+    font-size: 38PX;
+}
+BODY H2{
+    font-size: 27PX;
+}
+BODY H1{
+    font-size: 31PX;
+    color: orangered;
+}
+BODY P4{
+    font-size: 20PX;
+    color: darkgreen;
+}
+TABLE TR TH{
+    color: orangered;
+}
