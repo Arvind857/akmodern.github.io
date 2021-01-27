@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+    h1{
+    
+        color:red;
+        font-size: 40px;
+    }
+   
+    p{
+        font-size: large;
+    }
+    img {
+  display: block;
+  
+  height: 600px;
+  width: 500px;
+}
+
+p{
+    font-size: 30px;
+    color: black;
+}
+h4{
+    background-color: pink;
+    color: green;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+p1{
+    background-color: pink;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+}
+h5{
+    font-size: 70px;
+    background-color: orange;
+}
+</style>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<style>
+    *,*::after,*::before{
+    box-sizing: border-box;
+ }
+ .menu-btn {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    background-color: #040008;
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    width: 100%;
+ }
+ .dropdown-menu {
+    position: relative;
+    display: inline-block;
+ }
+ .menu-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #017575;
+    min-width: 160px;
+    z-index: 1;
+ }
+ nav{
+    background-color: #017575;
+    width: 100%;
+ }
+ .links,.links-hidden{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+ }
+ .links-hidden:hover,.links:hover {
+    background-color: rgb(8, 107, 46);
+ }
+ .dropdown-menu:hover .menu-content {
+    display: block;
+ }
+ .dropdown-menu:hover .menu-btn {
+    background-color: #3e8e41;
+ }
+ .hamburger {
+    color: white;
+    font-weight: bolder;
+    display: none;
+ }
+ 
+</style>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+
+    <div id="batt"></div>
+     <div id="battery">
+         <div id="bat0"></div>
+         </div> 
+         <div id="bat1"></div>
+        <div id="bat1a"></div>
+        <div id="det"></div>
+<nav>
+    <div class="search">
+        <input type="search" placeholder="Serach this website"><i class=" fas fa-search"></i>
+    </div>
+<a class="links" href="#" ><i class="fas fa-home"></i>Home</a>
+<a class="links" href="#" ><i class="fab fa-facebook-messenger"></i>Messenger</a>
+<a class="links" href="#" ><i class="fas fa-rupee-sign"></i>Rupee</a>
+<a class="links" href="#" ><i class="fas fa-history"></i>Our History</a>
+<a class="links" href="#" ></a><i class="fas fa-search-location"></i>Fund Us</a>
+<a class="links" href="#"><i class="fas fa-info-circle"></i>More Info</a>
+<a class="links" href="https://www.youtube.com/channel/UCBQ0HfVkngdji4r-gu7Twog"><i class="fab fa-youtube"></i>Youtube</a>
+<a class="links" href="https://www.facebook.com/profile.php?id=100027444741800"><i class="fab fa-facebook-square"></i> Facebook</a>
+<a class="links" href="https://www.instagram.com/create_a_websitie_arvind/" ><i class="fab fa-instagram"></i>Instagram</a>
+</nav>
+</body>
+</html>
+<H3>Pm Narendra Modi </H3>
+<body>
+
+
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="1.jpeg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="3.jpeg" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="3.jpeg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="1.jpeg" style="width:100%">
+  <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="2.jpeg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</style>
+</head>
+<body>
+
+<h1>Article</h1>
+<h2>Narendra Modi</h2>
+<p>
+    Narendra Damodardas Modi (Gujarati pronunciation: [ˈnəɾendrə dɑmodəɾˈdɑs ˈmodiː] (About this soundlisten);
+    rn 17 September 1950)[a] is an Indian politician serving as the 14th and current Prime Minister of India 
+    since 2014. He was the Chief Minister of Gujarat from 2001 to 2014 and is the Member of Parliament for <br>
+    Varanasi. Modi is a member of the Bharatiya Janata Party (BJP) and of the Rashtriya Swayamsevak Sangh
+     (RSS), a Hindu nationalist volunteer organisation. He is the first prime minister outside of the Indian
+      National Congress to win two consecutive terms with a full majority and the second to complete more than
+       five years in office after Atal Bihari Vajpayee.
+                <br>
+Born to a Gujarati family in Vadnagar, Modi helped his father sell tea as a child and has said he later ran
+ his own stall. He was introduced to the RSS at the age of eight, beginning a long association with the 
+ organisation.[4] Modi left home after finishing high-school in part due to child marriage to Jashodaben
+  Chimanlal Modi, which he abandoned and publicly acknowledged only many decades later. Modi travelled <br>
+  around India for two years and visited a number of religious centres before returning to Gujarat. 
+  In 1971 he became a full-time worker for the RSS. During the state of emergency imposed across <img src="1.jpeg" alt="Paris" class="center" >
+  the country in 1975, Modi was forced to go into hiding. The RSS assigned him to the BJP in 1985
+   and he held several positions within the party hierarchy until 2001, rising to the rank of general
+    secretary.[b]
+                <br>
+Modi was appointed Chief Minister of Gujarat in 2001 due to Keshubhai Patel's failing health and poor public
+ image following the earthquake in Bhuj. Modi was elected to the legislative assembly soon after. His administration has been considered complicit in the 2002 Gujarat riots,[c] or otherwise criticised for its handling of it. A Supreme Court-appointed Special Investigation Team found no evidence to initiate prosecution proceedings against Modi personally.[d] His policies as chief minister, credited with encouraging economic growth, have received praise.[15] His administration has been criticised for failing to significantly improve health, poverty and education indices in the state.[e]
+<br>
+Modi led the BJP in the 2014 general election which gave the party a majority in the Indian lower house
+ of parliament, the Lok Sabha, the first time for any single party since 1984. Modi's administration has 
+ tried to raise foreign direct investment in the Indian economy and reduced spending on healthcare and <br>
+ social welfare programmes. Modi has attempted to improve efficiency in the bureaucracy; he has centralised
+  power by abolishing the Planning Commission. He began a high-profile sanitation campaign, initiated a 
+  controversial demonetisation of high-denomination banknotes and weakened or abolished environmental and
+   labour laws.
+<br>
+Following his party's victory in the 2019 general election, his administration revoked the special 
+status of Jammu and Kashmir. His administration also introduced the Citizenship Amendment Act, which
+ resulted in widespread protests across the country. Described as engineering a political realignment <br>
+ towards right-wing politics, Modi remains a figure of controversy domestically and internationally over 
+ his Hindu nationalist beliefs and his alleged role during the 2002 Gujarat riots, cited as evidence of an
+  exclusionary social agenda.[f] Under Modi's tenure, India has experienced democratic backsliding.
+</p>
+<h4>
+    Early life and education<hr>
+</h4>
+<p1>
+    Narendra Modi was born on 17 September 1950 to a Gujarati Hindu family of grocers in Vadnagar, Mehsana 
+    district, Bombay State (present-day Gujarat). He was the third of six children born to Damodardas Mulchand
+     Modi (c. 1915–1989) and Hiraben Modi (born c. 1920).[27][a] Modi's family belonged to the
+      Modh-Ghanchi-Teli (oil-presser) community,[28][29][30] which is categorised as an Other Backward Class
+       by the Indian government.[31][32] He was falsely accused by Mayawati that he added his caste to the 
+       Other Backward Class (OBC) list as a political tool.[28][33]<br><br>
+       As a child, Modi helped his father sell tea at the Vadnagar railway station, and said that he later ran
+       ea stall with his brother near a bus terminus.[34] Modi completed his higher secondary education in Vadnagar
+        in 1967, where a teacher described him as an average student and a keen debater, with interest in theatre.[35] 
+        Modi had an early gift for rhetoric in debates, and his teachers and students noted this.[36] 
+        Modi preferred playing larger-than-life characters in theatrical productions, which has influenced his 
+        political image.[37][38]<br><br>
+        When eight years old, Modi discovered the Rashtriya Swayamsevak Sangh (RSS) and began attending its local shakhas (training sessions). There, Modi met Lakshmanrao Inamdar, popularly known as Vakil Saheb, who inducted him as a balswayamsevak (junior cadet) in the RSS and became his political mentor.[39] While Modi was training with the RSS, he also met Vasant Gajendragadkar and Nathalal Jaghda, Bharatiya Jana Sangh leaders who were founding members of the BJP's Gujarat unit in 1980.[40]<br><br>
+
+        Also in Narendra Modi's childhood, in a custom traditional to his caste, his family arranged a betrothal to a girl, Jashodaben Chimanlal Modi, leading to their marriage when they were teenagers.[41][42] Sometime thereafter, he abandoned the further marital obligations implicit in the custom,[43] and left home, the couple going on to lead separate lives, neither marrying again, and the marriage itself remaining unmentioned in Modi's public pronouncements for many decades.[44] In April 2014, shortly before the national elections that swept him to power, Modi publicly affirmed that he was married and his spouse was Jashodaben; the couple has remained married, but estranged.[45]<br><br>
+        
+        Modi spent the ensuing two years travelling across Northern and North-eastern India, though few details of where he went have emerged.[46] In interviews, Modi has described visiting Hindu ashrams founded by Swami Vivekananda: the Belur Math near Kolkata, followed by the Advaita Ashrama in Almora and the Ramakrishna Mission in Rajkot. Modi remained only a short time at each, since he lacked the required college education.[47][48][49] Vivekananda has been described as a large influence in Modi's life.[50]<br><br>
+        
+        In the early summer of 1968, Modi reached the Belur Math but was turned away, after which Modi wandered through Calcutta, West Bengal and Assam, stopping in Siliguri and Guwahati. Modi then went to the Ramakrishna Ashram in Almora, where he was again rejected, before travelling back to Gujarat via Delhi and Rajasthan in 1968–69. Sometime in late 1969 or early 1970, Modi returned to Vadnagar for a brief visit before leaving again for Ahmedabad.[51][52] There, Modi lived with his uncle, working in the latter's canteen at the Gujarat State Road Transport Corporation.[53]<br><br>
+        
+        In Ahmedabad, Modi renewed his acquaintance with Inamdar, who was based at the Hedgewar Bhavan (RSS headquarters) in the city.[54][55][56] After the Indo-Pakistani War of 1971, he stopped working for his uncle and became a full-time pracharak (campaigner) for the RSS,[57] working under Inamdar.[58] Shortly before the war, Modi took part in a non-violent protest against the Indian government in New Delhi, for which he was arrested; this has been cited as a reason for Inamdar electing to mentor him.[58] Many years later Modi would co-author a biography of Inamdar, published in 2001.[59]<br><br>
+        
+        In 1978 Modi received a Bachelor of Arts degree in political science from School of Open Learning[60] at University of Delhi,[61] graduating with a third class.[62] Five years later, in 1983, he received a Master of Arts degree in political science from Gujarat University, graduating with a first class[63][64] as an external distance learning student.[65]
+
+</p1>
+<h5>
+    Follow us<br>
+    <a class="links" href="https://www.youtube.com/channel/UCBQ0HfVkngdji4r-gu7Twog"><i class="fab fa-youtube"></i>Youtube</a>
+<a class="links" href="https://www.facebook.com/profile.php?id=100027444741800"><i class="fab fa-facebook-square"></i> Facebook</a>
+<a class="links" href="https://www.instagram.com/create_a_websitie_arvind/" ><i class="fab fa-instagram"></i>Instagram</a>
+
+</h5>
+</body>
+</html>
